@@ -2,3 +2,92 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+
+
+.flexiable-cntn{
+    display: flex;
+    margin-bottom: 100px;
+}
+#h1-color{
+    color: aquamarine;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    margin-top: 25px;
+}
+.half-width img{
+    width: 70%;
+    margin-left: 15%;
+}
+.link-btn{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px 40px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 400;
+    
+}
+#h1-side-border{
+    border-left:5px solid;
+    border-image: linear-gradient(orange,blue);
+    border-image-slice: 1;
+    margin-right: 4px;
+    padding-left: 3%;
+}
+
+.text-margin{
+    margin-top: 6%;
+}
+.mission-align{
+    text-align: center;
+}
+#mission-color{
+    color: burlywood;
+}
+.item{
+    width: 30%;
+    margin-left: 6%;
+    margin-right: 3%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+#img-logo{
+    height: 100px;
+    width:100px;
+}
+.side-bg{
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    
+}
+.h3-center{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color:white;
+    
+}
+footer p{
+    color: white;
+}
+.fb-btn{
+    text-decoration: none;
+    background-color:blue;
+    padding: 10px 40px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 400;
+}
